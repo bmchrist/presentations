@@ -11,3 +11,11 @@ class ExampleClass:
 
     def set_value(self, val):
 	self.data = val
+
+
+class SomethingElse(ExampleClass):
+    def get_value(self):
+        return 'hello'
+	
+    def unique(this):
+	return 'something'
